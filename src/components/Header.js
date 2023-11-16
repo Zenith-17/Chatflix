@@ -23,8 +23,8 @@ const Header = () => {
     (<div className='flex p-2'>
         <img
         className='w-12 h-12' 
-        src={user.photoURL} alt="UserImage" />
-        <button className='font-bold text-white mx-12' onClick={handleSignOut}>Sign Out </button>
+        src="https://tse2.mm.bing.net/th?id=OIP.RE_WgzICByGEGmvLtanb6QHaHa&pid=Api&P=0&h=180" alt="UserImage" />
+        <button className='font-bold text-gray-700 mx-12' onClick={handleSignOut}>Sign Out </button>
       </div>)}
     </div>
     
