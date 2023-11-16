@@ -5,8 +5,8 @@ import { auth } from '../utils/firebase';
 import { useSelector } from 'react-redux';
 import {useDispatch} from "react-redux";
 import {addUser, removeUser} from "../utils/userSlice";
-
-
+import { LOGO } from '../utils/constants';
+import { USER_AVATAR } from '../utils/constants'; 
 const Header = () => {
     const dispatch=useDispatch();
   const user=useSelector(store=>store.user);
@@ -21,7 +21,7 @@ const Header = () => {
   }
   //handled navigation in useEffect() because we wanted a place which is always there ie Header and is inside the router provider 
   useEffect(()=>{
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
         if (user) {
           //User signed in case
           const {uid,email,displayName,photoURL} = user;
@@ -33,16 +33,19 @@ const Header = () => {
          navigate("/");
         }
       });
+
+      //unmonting
+      return ()=>unsubscribe();
 },[])
   return (
     <div className=' absolute w-screen px-2 py-4 z-10 flex justify-between'>
-        <img className='w-44 px-8' src="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1052/2020/12/17062216/netflix-logo.png" alt="" />
+        <img className='w-44 px-8' src={LOGO}alt="APP LOGO" />
     
     {user &&
     (<div className='flex p-2'>
         <img
         className='w-12 h-12' 
-        src="https://tse2.mm.bing.net/th?id=OIP.RE_WgzICByGEGmvLtanb6QHaHa&pid=Api&P=0&h=180" alt="UserImage" />
+        src={USER_AVATAR} alt="UserImage" />
         <button className='font-bold text-gray-700 mx-12' onClick={handleSignOut}>Sign Out </button>
       </div>)}
     </div>

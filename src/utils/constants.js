@@ -1,0 +1,2 @@
+export const LOGO="https://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/1052/2020/12/17062216/netflix-logo.png";
+export const USER_AVATAR="https://tse2.mm.bing.net/th?id=OIP.RE_WgzICByGEGmvLtanb6QHaHa&pid=Api&P=0&h=180";
