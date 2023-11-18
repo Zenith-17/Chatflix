@@ -7,7 +7,7 @@ const Maincontainer = () => {
     const movies=useSelector(store=>store.movies?.nowPlayingMovies);
     
     if(!movies)
-    return;
+    return "cannot fetch movies";
 
     const mainMovie=movies[0];
 
