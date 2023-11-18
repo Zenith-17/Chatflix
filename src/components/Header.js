@@ -65,7 +65,7 @@ const handleLanguageChange=(e)=>{
         <img
         className='hidden md:block w-12 h-12' 
         src={USER_AVATAR} alt="UserImage" />
-        <button className='font-bold text-gray-700 mx-12' onClick={handleSignOut}>Sign Out </button>
+        <button className='font-bold text-white mx-12' onClick={handleSignOut}>Sign Out </button>
       </div>)}
     </div>
     
