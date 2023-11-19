@@ -1,18 +1,18 @@
-# NetflixGPT: Revolutionize Your Movie Discovery Experience 🍿
+# Chatflix: Revolutionize Your Movie Discovery Experience 🍿
 
 **About:**
-NetflixGPT seamlessly integrates OpenAI GPT-3.5 with React and Tailwind CSS to offer a personalized movie discovery experience on par with Netflix.
+Chatflix seamlessly integrates OpenAI GPT-3.5 with React and Tailwind CSS to offer a personalized movie discovery experience on par with Netflix.
 
 **Tech Stack:**
-- **Frontend:** ReactJS, Vite, Redux Toolkit
+- **Frontend:** ReactJS, Redux Toolkit
 - **Styling:** Tailwind CSS
 - **Authentication:** Firebase Authentication
-- **AI Integration:** OpenAI API (GPT-3)
+- **AI Integration:** OpenAI API (GPT-3.5)
 - **Deployment:** Vercel, Firebase Hosting
 
 **Features:**
 1. **AI-Powered Recommendations:**
-   - GPT-3 analyzes viewing history for personalized movie suggestions.
+   - GPT-3.5 analyzes viewing history for personalized movie suggestions.
   
 2. **Sleek Design & User-Friendly:**
    - Visually appealing interface crafted with React and Tailwind CSS.
