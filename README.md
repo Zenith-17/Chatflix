@@ -40,3 +40,28 @@ Chatflix seamlessly integrates OpenAI GPT-3.5 with React and Tailwind CSS to off
 
 10. **Code Reusability:**
     - Strong foundation for future developments and exciting features.
+
+##Screen Shots
+
+1) Login 
+
+![Screenshot (881)](https://github.com/Zenith-17/Chatflix/assets/99113156/44a8a384-b9bb-46d3-85f1-0fdae5edcd61)
+
+2) Home pages
+
+![Screenshot (875)](https://github.com/Zenith-17/Chatflix/assets/99113156/fd1df760-0c33-4a61-a419-0a1a13cb067a)
+
+
+![Screenshot (874)](https://github.com/Zenith-17/Chatflix/assets/99113156/9beff022-9143-4a26-9621-3053c6f77a6a)
+
+
+![Screenshot (876)](https://github.com/Zenith-17/Chatflix/assets/99113156/a8316fd9-97dd-4aac-9016-6c718c0101d1)
+
+
+3)Movie Details
+
+![Screenshot (879)](https://github.com/Zenith-17/Chatflix/assets/99113156/e80fa968-b488-4adf-8efe-8de1438a78d8)
+
+4)Gpt integration page
+
+![Screenshot (880)](https://github.com/Zenith-17/Chatflix/assets/99113156/6c053ad2-3f99-4c90-bd09-75b27c133520)
